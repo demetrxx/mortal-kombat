@@ -1,0 +1,30 @@
+.screen {
+  background-image: url("../../../pages/ModeSelection/assets/img/title.png");
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  border: 0;
+  outline: transparent;
+  background: transparent;
+  color: #eeee15;
+}
+
+.room {
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+}
+
+.tip {
+  font-size: 20px;
+  color: grey;
+}
+
+.ready {
+  opacity: 0;
+  transition: opacity 3000ms;
+}
