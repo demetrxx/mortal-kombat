@@ -1,0 +1,78 @@
+.screen {
+  background-image: url("../../assets/img/bg.png");
+  opacity: 0;
+  transition: opacity 3000ms;
+}
+
+.player {
+  position: absolute;
+  bottom: 0;
+  height: 390px;
+  z-index: 2;
+  transition: transform 2000ms;
+
+  &.left {
+    left: -20px;
+    transform: translate(-300px);
+  }
+
+  &.right {
+    right: -20px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translate(-300px);
+  }
+}
+
+.battle {
+  width: 400px;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.versus {
+  top: 18%;
+  width: 130px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: 3;
+}
+
+.dragon {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  z-index: 1;
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}
+
+.codes {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 4;
+}
+
+.mounted {
+  opacity: 1;
+
+  .player {
+    &.left {
+      transform: translate(0);
+    }
+
+    &.right {
+      transform: scaleX(-1) translate(0px);
+    }
+  }
+}
