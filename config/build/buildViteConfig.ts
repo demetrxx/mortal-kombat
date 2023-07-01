@@ -2,6 +2,7 @@ import svgr from 'vite-plugin-svgr';
 import react from '@vitejs/plugin-react-swc';
 import type { UserConfig } from 'vite';
 import { BuildOptions } from './types/config';
+import path from 'path';
 
 export const buildViteConfig = ({ env, command, port, fsdPaths }: BuildOptions): UserConfig => ({
   resolve: {

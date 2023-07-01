@@ -13,6 +13,7 @@ export default defineConfig(({ command, mode }) => {
     pages: path.resolve(__dirname, 'src', 'pages'),
     widgets: path.resolve(__dirname, 'src', 'widgets'),
     shared: path.resolve(__dirname, 'src', 'shared'),
+    ws: path.resolve(__dirname, 'node_modules','ws','index.js')
   };
 
   return buildViteConfig({
