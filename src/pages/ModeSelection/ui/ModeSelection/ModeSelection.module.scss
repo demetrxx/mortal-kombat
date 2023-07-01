@@ -1,0 +1,24 @@
+.screen {
+  background-image: url("../../assets/img/title.png");
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.btn {
+  border: 0;
+  outline: transparent;
+  background: transparent;
+  color: white;
+}
+
+.btn:focus{
+  color: #eeee15;
+}
+
+.selected {
+  opacity: 0;
+  transition: opacity 3000ms;
+}
