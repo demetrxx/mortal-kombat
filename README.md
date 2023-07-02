@@ -13,13 +13,15 @@ Features:
 ```
 npm i - install dependencies
 npm start- start front-end app
-npm run start:server - start WebSocket server
 
+Optional:
+npm run start:server - start WebSocket server localy (now deployed on Fly.io)
+Change .env API_URL variable to "ws://localhost:5000" then
 ```
 
 ### Project configuration:
 - Vite
-- TypeScript + SWC  (20x faster than babel)
+- TypeScript + SWC
 - React
 - Linters: Eslint & StyleLint
 - Prettier
@@ -28,7 +30,7 @@ npm run start:server - start WebSocket server
 - `111111`: outstanding,
 - `123456`: crispy,
 - `010101`: fatality,
-- `091101`: flawless,
+- `091101`: flawless victory,
 - `228228`: toasty,
-- `333333`: getOverHere,
-- `007007`: finishHim,
+- `333333`: get over here,
+- `007007`: finish him.
