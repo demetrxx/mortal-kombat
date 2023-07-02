@@ -12,7 +12,7 @@ Features:
 
 ```
 npm i - install dependencies
-npm start- start front-end app
+npm start - start front-end app
 
 Optional:
 npm run start:server - start WebSocket server localy (now deployed on Fly.io)
